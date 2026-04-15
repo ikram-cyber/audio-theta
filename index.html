@@ -10,111 +10,104 @@
     <style>
         body { font-family: 'Montserrat', sans-serif; background-color: #030303; }
         .font-luxury { font-family: 'Playfair Display', serif; }
-        
         .purple-gold-text { background: linear-gradient(to right, #c084fc, #e879f9, #d4af37); -webkit-background-clip: text; color: transparent; }
         .luxury-border { border: 1px solid rgba(192, 132, 252, 0.3); }
-        .luxury-card { background: rgba(10, 10, 10, 0.8); backdrop-filter: blur(15px); box-shadow: 0 20px 40px rgba(0,0,0,0.8); }
-        
-        .btn-luxury {
-            background: linear-gradient(135deg, #2e1065 0%, #0f172a 100%);
-            border: 1px solid #c084fc;
-            color: #c084fc;
-            transition: all 0.5s ease;
-        }
-        .btn-luxury:hover {
-            background: #c084fc;
-            color: #000;
-            box-shadow: 0 0 25px rgba(192, 132, 252, 0.4);
-        }
-
-        .ambient-glow {
-            position: absolute; width: 300px; height: 300px;
-            background: radial-gradient(circle, rgba(168,85,247,0.05) 0%, rgba(0,0,0,0) 70%);
-            top: -100px; left: 50%; transform: translateX(-50%); z-index: -1;
-        }
+        .luxury-card { background: rgba(10, 10, 10, 0.8); backdrop-filter: blur(15px); }
+        .btn-luxury { background: linear-gradient(135deg, #2e1065 0%, #0f172a 100%); border: 1px solid #c084fc; color: #c084fc; transition: all 0.5s ease; }
+        .btn-luxury:hover { background: #c084fc; color: #000; box-shadow: 0 0 25px rgba(192, 132, 252, 0.4); }
+        .ambient-glow { position: absolute; width: 300px; height: 300px; background: radial-gradient(circle, rgba(168,85,247,0.05) 0%, rgba(0,0,0,0) 70%); top: -100px; left: 50%; transform: translateX(-50%); z-index: -1; }
     </style>
 </head>
 <body class="text-slate-300 antialiased pb-20 selection:bg-purple-600/30 relative z-0">
     <div class="ambient-glow"></div>
-    
-    <main class="max-w-md mx-auto px-6 pt-16 space-y-10">
+    <main class="max-w-md mx-auto px-6 pt-16 space-y-8">
         
-        <div class="text-center space-y-6 relative">
-            <div class="inline-block border border-purple-500/40 text-purple-400 text-[9px] font-bold px-6 py-2 rounded-full uppercase tracking-[0.3em] bg-black/50 backdrop-blur-sm">
-                Single Frequency
+        <div class="text-center space-y-4">
+            <div class="inline-block border border-purple-500/40 text-purple-400 text-[9px] font-bold px-6 py-2 rounded-full uppercase tracking-[0.3em] bg-black/50">
+                Premium Frequency
             </div>
-            <h1 class="font-luxury text-4xl font-bold tracking-tight leading-tight text-white mt-4">
+            <h1 class="font-luxury text-4xl font-bold tracking-tight text-white mt-4">
                 Theta <span class="purple-gold-text italic">Original</span>
             </h1>
-            <p class="text-slate-400 text-xs font-light leading-relaxed tracking-wide px-4">
-                Kondisi meditasi dalam untuk pemrograman ulang pikiran bawah sadar.
+            <p class="text-slate-400 text-xs font-light leading-relaxed tracking-wide">
+                Deep Brainwave Synchronization
             </p>
-            <div class="w-12 h-[1px] bg-gradient-to-r from-transparent via-purple-500 to-transparent mx-auto mt-6"></div>
+            <div class="w-12 h-[1px] bg-gradient-to-r from-transparent via-purple-500 to-transparent mx-auto mt-4"></div>
         </div>
 
-        <div class="luxury-card luxury-border rounded-2xl p-8 relative overflow-hidden">
-            <h3 class="font-luxury text-white text-lg mb-6 text-center tracking-wider">
-                Manfaat Spesifik
+        <div class="luxury-card luxury-border rounded-2xl p-6">
+            <h3 class="font-luxury text-white text-base mb-4 flex items-center gap-2">
+                <i class="fas fa-star text-purple-400"></i> Manfaat & Kegunaan Utama:
             </h3>
-            <ul class="space-y-4">
+            <ul class="space-y-3">
                 <li class="flex items-start gap-3">
-                    <i class="fas fa-asterisk text-purple-500 text-[10px] mt-1.5"></i>
+                    <i class="fas fa-check-circle text-purple-500/80 text-[10px] mt-1"></i>
                     <span class="text-xs text-slate-300 font-light leading-relaxed">Membuka akses langsung ke gerbang pikiran bawah sadar (Subconscious).</span>
                 </li>
                 <li class="flex items-start gap-3">
-                    <i class="fas fa-asterisk text-purple-500 text-[10px] mt-1.5"></i>
-                    <span class="text-xs text-slate-300 font-light leading-relaxed">Mencapai kondisi meditasi yang sangat dalam dengan presisi.</span>
+                    <i class="fas fa-check-circle text-purple-500/80 text-[10px] mt-1"></i>
+                    <span class="text-xs text-slate-300 font-light leading-relaxed">Membantu mencapai kondisi meditasi yang sangat dalam dengan cepat.</span>
                 </li>
                 <li class="flex items-start gap-3">
-                    <i class="fas fa-asterisk text-purple-500 text-[10px] mt-1.5"></i>
-                    <span class="text-xs text-slate-300 font-light leading-relaxed">Ideal untuk afirmasi dan proses manifestasi tingkat lanjut.</span>
+                    <i class="fas fa-check-circle text-purple-500/80 text-[10px] mt-1"></i>
+                    <span class="text-xs text-slate-300 font-light leading-relaxed">Sangat efektif untuk pemrograman ulang afirmasi dan proses manifestasi.</span>
                 </li>
             </ul>
         </div>
 
-        <div class="luxury-card border border-slate-800 rounded-2xl p-7">
-            <h3 class="font-luxury text-purple-400 text-base mb-4 tracking-wider text-center">Panduan Terapeutik</h3>
-            <div class="space-y-5">
-                <div>
-                    <h4 class="text-xs text-white font-bold tracking-widest uppercase mb-2"><i class="fas fa-wave-square text-purple-500 mr-2"></i> Pure Tone Profile</h4>
-                    <p class="text-[11px] text-slate-400 font-light leading-relaxed">
-                        <span class="text-white">Pure Sine Wave</span> murni. Tidak mengandung musik pengiring guna melakukan bypass kesadaran analitis secara maksimal.
-                    </p>
-                </div>
-                <div>
-                    <h4 class="text-xs text-white font-bold tracking-widest uppercase mb-2"><i class="fas fa-headphones text-purple-500 mr-2"></i> Instruksi Sesi</h4>
-                    <p class="text-[11px] text-slate-400 font-light leading-relaxed">
-                        Gunakan <span class="text-white">Earphone</span>. Dengarkan file WAV tanpa henti selama 15 menit penuh dalam kondisi mata tertutup.
-                    </p>
-                </div>
+        <div class="luxury-card border border-slate-800 rounded-2xl p-6">
+            <h3 class="font-luxury text-purple-400 text-base mb-5 flex items-center gap-2">
+                <i class="fas fa-exclamation-triangle"></i> Wajib Baca
+            </h3>
+            <p class="text-[11px] text-slate-300 font-light leading-relaxed mb-4">
+                Audio kami menggunakan format <span class="text-white font-medium">WAV High-Fidelity</span> yang menjamin sinkronisasi gelombang otak tanpa distorsi kompresi.
+            </p>
+
+            <div class="bg-black/40 rounded-xl p-4 border border-white/5 mb-4">
+                <h4 class="flex items-center gap-2 text-white font-bold mb-2 text-xs">
+                    <i class="fas fa-wave-square text-purple-400"></i> Karakteristik Audio (Pure Tone):
+                </h4>
+                <p class="text-[10px] text-slate-300 font-light leading-relaxed mb-2">
+                    Audio ini adalah <span class="text-white font-medium">Pure Sine Wave (Frekuensi Murni)</span>. Terdengar seperti dengungan konstan tanpa alunan musik.
+                </p>
+                <p class="text-[10px] text-slate-400 font-light leading-relaxed italic">
+                    Kenapa dibuat tanpa musik? Karena musik dan melodi membuat otak analitis tetap aktif. Pure Tone didesain khusus secara klinis memaksa otak langsung sinkron ke kondisi Theta tanpa distraksi.
+                </p>
             </div>
-            <div class="mt-6 border-l-2 border-[#8b0000] pl-4 py-1">
+
+            <div class="bg-black/40 rounded-xl p-4 border border-white/5 mb-4">
+                <h4 class="flex items-center gap-2 text-white font-bold mb-2 text-xs">
+                    <i class="fas fa-headphones text-purple-400"></i> Cara Pakai:
+                </h4>
+                <ul class="space-y-2 text-[10px] text-slate-300 font-light list-disc list-outside ml-4">
+                    <li><span class="text-white font-medium">Wajib Earphone:</span> Untuk memastikan otak merespons secara terpisah.</li>
+                    <li><span class="text-white font-medium">Durasi 15 Menit:</span> Jangan dipotong dari awal sampai akhir.</li>
+                    <li><span class="text-white font-medium">Fokus:</span> Sangat direkomendasikan untuk meditasi atau visualisasi.</li>
+                </ul>
+            </div>
+
+            <div class="border-l-2 border-[#8b0000] pl-3 py-1">
                 <p class="text-[#c75b5b] text-[10px] italic font-light">
-                    *Peringatan: Dilarang keras mendengarkan saat menyetir atau mengoperasikan alat berat.
+                    <i class="fas fa-ban mr-1"></i> DILARANG mendengarkan saat menyetir atau mengoperasikan mesin berat karena memicu relaksasi dan kantuk.
                 </p>
             </div>
         </div>
 
-        <div class="text-center pt-6">
-            <div class="mb-6">
-                <span class="text-sm text-slate-600 line-through font-light block mb-2">Rp 600.000</span>
-                <div class="font-luxury text-4xl text-white tracking-tighter mt-2 mb-1">Rp 300.000</div>
-                <span class="text-[10px] text-purple-400 tracking-widest uppercase font-bold">Premium Rate</span>
+        <div class="text-center pt-4">
+            <div class="mb-5">
+                <span class="text-[10px] text-slate-500 line-through block mb-1">Rp 600.000</span>
+                <div class="font-luxury text-3xl font-bold text-white tracking-tighter">Rp 300.000</div>
             </div>
-
-            <a href="https://lynk.id/ikram-cyber/poy0er1/checkout" target="_blank" class="btn-luxury block w-full py-5 rounded-none font-bold text-xs uppercase tracking-[0.3em]">
-                Dapatkan Akses
+            <a href="https://lynk.id/ikram-cyber/poy0er1/checkout" target="_blank" class="btn-luxury block w-full py-4 rounded-xl font-bold text-xs uppercase tracking-[0.2em]">
+                DAPATKAN SEKARANG
             </a>
-            <p class="mt-5 text-[9px] text-slate-500 font-light uppercase tracking-widest">
-                *Belum termasuk biaya layanan platform
+            <p class="mt-4 text-[9px] text-slate-500 font-light uppercase tracking-widest">
+                *Harga belum termasuk biaya layanan (fee) platform.
             </p>
         </div>
-
-        <footer class="pt-16 pb-8 text-center">
-            <div class="w-8 h-[1px] bg-slate-800 mx-auto mb-6"></div>
-            <p class="text-[9px] text-slate-600 uppercase tracking-[0.4em] font-light">
-                &copy; 2026 Ikram Cyber System
-            </p>
+        
+        <footer class="pt-10 pb-6 text-center border-t border-slate-900 mt-8">
+            <p class="text-[9px] text-slate-600 uppercase tracking-[0.4em] font-light">&copy; 2026 Ikram Cyber System</p>
         </footer>
     </main>
 </body>
